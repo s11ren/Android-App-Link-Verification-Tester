@@ -95,7 +95,7 @@ Note that you can also specify the `-v` flag to print the entire DAL file.
 An example output for the Twitter Android app would be:
 
 ```
-python3 Android-App-Link-Verification-Tester/deeplink_analyser.py \
+~ python3 Android-App-Link-Verification-Tester/deeplink_analyser.py \
 -apk com.twitter.android_2021-10-22.apk \
 -p com.twitter.android \
 -op verify-applinks
