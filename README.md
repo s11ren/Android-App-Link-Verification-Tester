@@ -105,19 +105,7 @@ python3 Android-App-Link-Verification-Tester/deeplink_analyser.py \
 The APK's signing certificate's SHA-256 fingerprint is: 
 0F:D9:A0:CF:B0:7B:65:95:09:97:B4:EA:EB:DC:53:93:13:92:39:1A:A4:06:53:8A:3B:04:07:3B:C2:CE:2F:E9
 
-com.twitter.app.profiles.ProfileActivity
-
-com.twitter.nft.walletconnect.NFTWalletConnectActivity
-
-Checking https://go.cb-w.com/e3cWO4UNmjb
-
-x does not include autoverify=true
-✓ includes VIEW action
-✓ includes BROWSABLE category
-✓ includes DEFAULT category
-x DAL verification failed
-
-com.twitter.deeplink.implementation.UrlInterpreterActivity
+[...]
 
 Checking http://mobile.twitter.com/.*
 
@@ -145,114 +133,7 @@ Checking http://twitter.com/.*
     - [Standard] delegate_permission/common.handle_all_urls
     - [Custom]   delegate_permission/common.use_as_origin
 
-Checking http://www.twitter.com/.*
-
-✓ includes autoverify=true
-✓ includes VIEW action
-✓ includes BROWSABLE category
-✓ includes DEFAULT category
-✓ DAL verified
-
-  Relations: 
-    - [Standard] delegate_permission/common.get_login_creds
-    - [Standard] delegate_permission/common.handle_all_urls
-    - [Custom]   delegate_permission/common.use_as_origin
-
-Checking https://ads.twitter.com/mobile
-
-✓ includes autoverify=true
-✓ includes VIEW action
-✓ includes BROWSABLE category
-✓ includes DEFAULT category
-✓ DAL verified
-
-  Relations: 
-    - [Standard] delegate_permission/common.get_login_creds
-    - [Standard] delegate_permission/common.handle_all_urls
-    - [Custom]   delegate_permission/common.use_as_origin
-
-Checking https://mobile.twitter.com/.*
-
-✓ includes autoverify=true
-✓ includes VIEW action
-✓ includes BROWSABLE category
-✓ includes DEFAULT category
-✓ DAL verified
-
-  Relations: 
-    - [Standard] delegate_permission/common.get_login_creds
-    - [Standard] delegate_permission/common.handle_all_urls
-    - [Custom]   delegate_permission/common.use_as_origin
-
-Checking https://twitter-alternate.app.link
-
-✓ includes autoverify=true
-✓ includes VIEW action
-✓ includes BROWSABLE category
-✓ includes DEFAULT category
-✓ DAL verified
-
-  Relations: 
-    - [Standard] delegate_permission/common.handle_all_urls
-
-Checking https://twitter-alternate.test-app.link
-
-✓ includes autoverify=true
-✓ includes VIEW action
-✓ includes BROWSABLE category
-✓ includes DEFAULT category
-✓ DAL verified
-
-  Relations: 
-    - [Standard] delegate_permission/common.handle_all_urls
-
-Checking https://twitter.app.link
-
-✓ includes autoverify=true
-✓ includes VIEW action
-✓ includes BROWSABLE category
-✓ includes DEFAULT category
-✓ DAL verified
-
-  Relations: 
-    - [Standard] delegate_permission/common.handle_all_urls
-
-Checking https://twitter.com/.*
-
-✓ includes autoverify=true
-✓ includes VIEW action
-✓ includes BROWSABLE category
-✓ includes DEFAULT category
-✓ DAL verified
-
-  Relations: 
-    - [Standard] delegate_permission/common.get_login_creds
-    - [Standard] delegate_permission/common.handle_all_urls
-    - [Custom]   delegate_permission/common.use_as_origin
-
-Checking https://twitter.test-app.link
-
-✓ includes autoverify=true
-✓ includes VIEW action
-✓ includes BROWSABLE category
-✓ includes DEFAULT category
-✓ DAL verified
-
-  Relations: 
-    - [Standard] delegate_permission/common.handle_all_urls
-
-Checking https://www.twitter.com/.*
-
-✓ includes autoverify=true
-✓ includes VIEW action
-✓ includes BROWSABLE category
-✓ includes DEFAULT category
-✓ DAL verified
-
-  Relations: 
-    - [Standard] delegate_permission/common.get_login_creds
-    - [Standard] delegate_permission/common.handle_all_urls
-    - [Custom]   delegate_permission/common.use_as_origin
+[...]
 
 Read more about relation strings here: https://developers.google.com/digital-asset-links/v1/relation-strings
 ```
